@@ -122,16 +122,69 @@ iframe {
 }
 
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
+    body {
+        background-size: contain;
+        padding: 10px;
     }
 
-    main {
-        padding: 15px;
+    header {
+        padding: 15px 0;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav {
+        text-align: center;
     }
 
     nav a {
+        display: block;
+        margin: 5px 0;
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    main {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+    main p {
         font-size: 0.9rem;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    ul li {
+        font-size: 0.9rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    table th, table td {
         padding: 5px;
+    }
+
+    footer {
+        padding: 8px 0;
+    }
+
+    footer p {
+        font-size: 0.8rem;
     }
 }
