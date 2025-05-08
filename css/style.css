@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: url('https://images.wallpapersden.com/image/download/world-of-warcraft-the-lich-king-4k_bWdubGaUmZqaraWkpJRobWllrWZubGg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main h2 {
+    color: #f4f4f4;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #f4f4f4;
+}
+
+main ul, main table {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: rgba(74, 144, 226, 0.9);
+    color: #ffffff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #f4f4f4;
+    border-top: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+}

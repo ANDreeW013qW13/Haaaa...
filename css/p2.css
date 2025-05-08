@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://wallpapercat.com/w/full/6/b/8/134238-3840x2160-desktop-4k-god-of-war-ragnarok-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+header {
+    background-color: rgba(20, 20, 20, 0.8);
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 0;
+    background-color: rgba(20, 20, 20, 0.8);
+    color: #e0e0e0;
+    border-top: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        margin: 0 5px;
+        padding: 5px 8px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .gallery-item img {
+        height: 150px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
