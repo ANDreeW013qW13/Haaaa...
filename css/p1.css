@@ -107,9 +107,8 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    body {
+    bbody {
         font-size: 14px;
-        padding: 1rem;
     }
 
     header h1 {
