@@ -136,14 +136,6 @@ iframe {
         padding: 5px 8px;
     }
 
-    ul {
-        padding-left: 15px;
-    }
-
-    ul li {
-        font-size: 0.9rem;
-    }
-
     table {
         font-size: 0.8rem;
     }
@@ -152,5 +144,7 @@ iframe {
         padding: 5px;
     }
 
-    
+    footer p {
+        font-size: 0.8rem;
+    }
 }
