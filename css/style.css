@@ -122,41 +122,18 @@ iframe {
 }
 
 @media (max-width: 768px) {
-    header {
-        padding: 15px 0;
-    }
-
-    header h1 {
-        font-size: 1.8rem;
-        margin-bottom: 8px;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-
-    nav {
-        text-align: center;
-    }
-
-    nav a {
-        font-size: 0.8rem;
-        padding: 8px;
+        header h1 {
+        font-size: 2rem;
     }
 
     main {
-        margin: 10px auto;
-        padding: 10px;
+        padding: 15px;
     }
 
-    main h2 {
-        font-size: 1.5rem;
-    }
-
-    main p {
+    nav a {
         font-size: 0.9rem;
+        padding: 5px;
     }
-
     ul {
         padding-left: 15px;
     }
@@ -171,13 +148,5 @@ iframe {
 
     table th, table td {
         padding: 5px;
-    }
-
-    footer {
-        padding: 8px 0;
-    }
-
-    footer p {
-        font-size: 0.8rem;
     }
 }
